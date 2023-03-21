@@ -35,7 +35,6 @@ print(output.size())                #y输出为[128,30]
 
 $$\left[ \begin{matrix}
    128 & 30 \\
-  
   \end{matrix}
   \right] = \left[
  \begin{matrix}
