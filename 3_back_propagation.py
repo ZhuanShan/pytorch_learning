@@ -26,4 +26,3 @@ for epoch in range(100):
     print("progress:", epoch, l.item())
 
 print("predict after training", 4, forward(4).item())
-
