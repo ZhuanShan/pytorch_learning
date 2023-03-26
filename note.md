@@ -79,3 +79,18 @@ forward 函数被调用了
 这里`a = A(10)`将对象初始化，`init_age`设为10\
 `a(2)`是类函数化，将2传入`__call__(self, added_age)`中的`added_age`中\
 然后调用`forward()`
+
+
+
+## **Pytorch深度学习实践**
+### **第五讲Pytorch线性回归**
+一个epoch中计算步骤
+1. 计算$\hat{y}$
+2.   计算loss
+3. 计算梯度，进行反向传播
+4. 进行更新`.step()`
+
+### **第六讲logistic回归**
+分类问题
++ sigmoid函数: 将区间压缩至0-1之间
+$$\frac{1}{1+e^{-x}}$$
